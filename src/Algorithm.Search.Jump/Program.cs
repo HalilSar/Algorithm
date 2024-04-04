@@ -6,8 +6,8 @@ namespace Algorithm.Search.Jump
     {
         static void Main(string[] args)
         {
-            int[] arr = { 1, 3, 5, 4, 2, 0, 8, 9, 6 };
-            int target = 5;
+            int[] arr = { 1, 2,3,4,5,6,7,8 };
+            int target = 7;
             int index = JumpSearch(arr, target);
             if(index != -1) WriteLine("Element found at index " + index);
             else WriteLine("Element not found.");
