@@ -17,7 +17,7 @@ namespace Algorithm.Search.LinearProbingHashTable
 
             hashtable.Display();
 
-            WriteLine("\nValue of key '3':" + hashtable.Get("1"));
+            WriteLine("\nValue of key '1':" + hashtable.Get("1"));
 
         }
     }
@@ -68,9 +68,9 @@ namespace Algorithm.Search.LinearProbingHashTable
         {
             int index = Hash(key);
 
-            while (keys[index] != key)
+            while (keys[index] != null)
             {
-                if (keys[index] != key)
+                if (keys[index] == key)
                     return values[index];
                 index = (index + 1) % capacity;
             }
