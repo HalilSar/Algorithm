@@ -23,7 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Search.TernarySea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Search.LinearProbingHashTable", "LinearProbingHashTable\Algorithm.Search.LinearProbingHashTable.csproj", "{917449FF-6B36-41CC-899F-763EF94FAE25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Search.BinarySearchTree", "Algorithm.Search.BinarySearchTree\Algorithm.Search.BinarySearchTree.csproj", "{65AA711E-4F2D-44C4-84F2-A37F6233D985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Search.BinarySearchTree", "Algorithm.Search.BinarySearchTree\Algorithm.Search.BinarySearchTree.csproj", "{65AA711E-4F2D-44C4-84F2-A37F6233D985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sort", "Sort", "{6373EFC3-5AEB-4C28-9178-5A3BC30BBA61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Sort.Bubble", "Algorithm.Sort.Bubble\Algorithm.Sort.Bubble.csproj", "{243C3629-C72A-423A-9E66-077A6C911420}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,10 @@ Global
 		{65AA711E-4F2D-44C4-84F2-A37F6233D985}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65AA711E-4F2D-44C4-84F2-A37F6233D985}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65AA711E-4F2D-44C4-84F2-A37F6233D985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243C3629-C72A-423A-9E66-077A6C911420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243C3629-C72A-423A-9E66-077A6C911420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243C3629-C72A-423A-9E66-077A6C911420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243C3629-C72A-423A-9E66-077A6C911420}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +94,7 @@ Global
 		{3283B776-3155-42ED-A006-F9A309C4EC70} = {D1659688-4969-4D43-BA94-99B4D5A7F6E9}
 		{917449FF-6B36-41CC-899F-763EF94FAE25} = {D1659688-4969-4D43-BA94-99B4D5A7F6E9}
 		{65AA711E-4F2D-44C4-84F2-A37F6233D985} = {D1659688-4969-4D43-BA94-99B4D5A7F6E9}
+		{243C3629-C72A-423A-9E66-077A6C911420} = {6373EFC3-5AEB-4C28-9178-5A3BC30BBA61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {781A78E4-524B-4646-8965-93BC2AC2D040}
