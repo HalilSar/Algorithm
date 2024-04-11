@@ -8,31 +8,29 @@ namespace Algorithm.Sort.Quick
             int[] array = { 64, 34, 25, 12, 22, 11, 90 };
             WriteLine("Orjinal Array:");
             PrintArray(array);
-            Sort(array, 0, array.Length - 1);
+            Sort(array);
             WriteLine("\n Sorte Array:");
             PrintArray(array);
         }
 
 
-        private static void Sort(int[] array, int left, int right)
+        private static void Sort(int[] array)
         {
-            if (left < right)
+            int n = array.Length;
+            for (int i = 0; i < n-1; i++)
             {
-                //int pivotIndex = Partition(array, left, right);
-                Sort(array, left, pivotIndex - 1);
-                Sort(array, pivotIndex + 1, right);
+                int minIndex = i;
+                for (int j = i + 1; j < n; j++)
+                {
+                    if (array[j] < array[minIndex])
+                        minIndex = j;                   
+                }
 
+                int temp = array[minIndex];
+                array[minIndex] = array[i];
+                array[i] = temp;
             }
         }
-        private static void Swap(int[] array, int i, int j)
-        {
-            int temp = array[i];
-            array[i] = array[j];
-            array[j] = temp;
-
-        }
-
-
 
         private static void PrintArray(int[] array)
         {
@@ -44,4 +42,4 @@ namespace Algorithm.Sort.Quick
         }
     }
 }
-}
+
