@@ -9,7 +9,7 @@ namespace Algorithm.Sort.Shell
             int[] arr = { 64, 25, 12, 22, 11 };
             int n = arr.Length;
 
-            // Kabuk sıralama
+
             ShellSortAlgorithm(arr);
 
             Console.WriteLine("Sorted array:");
@@ -22,7 +22,7 @@ namespace Algorithm.Sort.Shell
         static void ShellSortAlgorithm(int[] arr)
         {
             int n = arr.Length;
-            int gap = n / 2; // Başlangıçta aralık değeri dizinin yarısı olarak belirlenir.
+            int gap = n / 2; 
 
             while (gap > 0)
             {
@@ -31,7 +31,7 @@ namespace Algorithm.Sort.Shell
                     int temp = arr[i];
                     int j = i;
 
-                    // Insertion Sort benzeri bir adım
+                    
                     while (j >= gap && arr[j - gap] > temp)
                     {
                         arr[j] = arr[j - gap];
@@ -39,7 +39,7 @@ namespace Algorithm.Sort.Shell
                     }
                     arr[j] = temp;
                 }
-                gap /= 2; // Aralık değeri azaltılır
+                gap /= 2; 
             }
         }
     }
