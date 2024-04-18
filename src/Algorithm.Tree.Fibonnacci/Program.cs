@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Algorithm.Tree.Fibonnacci
+namespace Algorithm.Tree.Fibonacci
 {
     class Program
     {

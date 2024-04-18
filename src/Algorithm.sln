@@ -57,7 +57,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Tree.AVL", "Algor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Tree.BalancedTree", "Algorithm.Tree.BalancedTree\Algorithm.Tree.BalancedTree.csproj", "{3F74BC23-0160-4FAB-95D0-AFAFC165E888}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Tree.Fibonnacci", "Algorithm.Tree.Fibonnacci\Algorithm.Tree.Fibonnacci.csproj", "{6D557B73-1AA2-42F5-BD2D-D2AD84211C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Tree.Fibonacci", "Algorithm.Tree.Fibonnacci\Algorithm.Tree.Fibonacci.csproj", "{6D557B73-1AA2-42F5-BD2D-D2AD84211C92}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Tree.BTree", "Algorithm.Tree.BTree\Algorithm.Tree.BTree.csproj", "{C4E8B9B2-896E-463E-9EC5-4F1B947480AA}"
 EndProject
