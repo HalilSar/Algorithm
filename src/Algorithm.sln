@@ -61,7 +61,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Tree.Fibonacci", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Tree.BTree", "Algorithm.Tree.BTree\Algorithm.Tree.BTree.csproj", "{C4E8B9B2-896E-463E-9EC5-4F1B947480AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Tree.B+Baum", "Algorithm.Tree.B+Baum\Algorithm.Tree.B+Baum.csproj", "{1F652843-151B-4BCE-95AB-4D50838C35EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Tree.BPlusBaum", "Algorithm.Tree.B+Baum\Algorithm.Tree.BPlusBaum.csproj", "{1F652843-151B-4BCE-95AB-4D50838C35EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
