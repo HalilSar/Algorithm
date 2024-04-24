@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace Algorithm.Graf.Dijkstra
+namespace Algorithm.Graf.BellManFord
 {
     class Program
     {
-        private int V; 
+        private int V;
         private List<Tuple<int, int>>[] adj;
 
         public Program(int v)
@@ -22,8 +22,8 @@ namespace Algorithm.Graf.Dijkstra
             adj[u].Add(new Tuple<int, int>(v, weight));
         }
 
-   
-        public void Dijkstra(int src)
+
+        public void BellmanFord(int src)
         {
             int[] dist = new int[V];
             for (int i = 0; i < V; ++i)
@@ -32,35 +32,23 @@ namespace Algorithm.Graf.Dijkstra
             }
             dist[src] = 0;
 
-            SortedSet<Tuple<int, int>> pq = new SortedSet<Tuple<int, int>>();
-            pq.Add(new Tuple<int, int>(0, src));
-
-            while (pq.Count != 0)
+            for (int i = 1; i < V; ++i)
             {
-                Tuple<int, int> tuple = pq.Min;
-                pq.Remove(tuple);
-
-                int u = tuple.Item2;
-
-                foreach (var item in adj[u])
+                foreach (var tuple in adj[i])
                 {
-                    int v = item.Item1;
-                    int weight = item.Item2;
-
-                    if (dist[u] != int.MaxValue && dist[v] > dist[u] + weight)
+                    int u = i;
+                    int v = tuple.Item1;
+                    int weight = tuple.Item2;
+                    if (dist[u] != int.MaxValue && dist[u] + weight < dist[v])
                     {
-                        pq.Remove(new Tuple<int, int>(dist[v], v));
                         dist[v] = dist[u] + weight;
-                        pq.Add(new Tuple<int, int>(dist[v], v));
                     }
                 }
             }
 
-            Console.WriteLine("Dijkstra Shortest Path:");
+            Console.WriteLine("Bellman-Ford Shortest Path:");
             PrintSolution(dist);
         }
-
-
         private void PrintSolution(int[] dist)
         {
             for (int i = 0; i < V; ++i)
@@ -69,7 +57,6 @@ namespace Algorithm.Graf.Dijkstra
             }
 
         }
-
         static void Main(string[] args)
         {
             Program graph = new Program(5);
@@ -84,7 +71,7 @@ namespace Algorithm.Graf.Dijkstra
             graph.AddEdge(4, 0, 7);
             graph.AddEdge(4, 3, 6);
 
-            graph.Dijkstra(0);
+            graph.BellmanFord(0);
         }
     }
 }
