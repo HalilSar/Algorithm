@@ -60,6 +60,7 @@ namespace Algorithm.Graf.Dijkstra
             PrintSolution(dist);
         }
 
+
         private void PrintSolution(int[] dist)
         {
             for (int i = 0; i < V; ++i)
