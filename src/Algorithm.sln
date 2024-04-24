@@ -75,7 +75,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.DepthFirstSe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.BreadthFirstSearch", "Algorithm.Graf.BreadthFirstSearch\Algorithm.Graf.BreadthFirstSearch.csproj", "{93312DE4-0389-4792-9804-F3F8FE244F26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Graf.Dijkstra", "Algorithm.Graf.Dijkstra\Algorithm.Graf.Dijkstra.csproj", "{7875F915-9FC2-4494-B620-F0E6E9A95862}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.Dijkstra", "Algorithm.Graf.Dijkstra\Algorithm.Graf.Dijkstra.csproj", "{7875F915-9FC2-4494-B620-F0E6E9A95862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Graf.BellMan", "Algorithm.Graf.BellMan\Algorithm.Graf.BellMan.csproj", "{A5F46A5F-9B97-4CF2-83F9-3738D1F8C257}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -215,6 +217,10 @@ Global
 		{7875F915-9FC2-4494-B620-F0E6E9A95862}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7875F915-9FC2-4494-B620-F0E6E9A95862}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7875F915-9FC2-4494-B620-F0E6E9A95862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F46A5F-9B97-4CF2-83F9-3738D1F8C257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F46A5F-9B97-4CF2-83F9-3738D1F8C257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F46A5F-9B97-4CF2-83F9-3738D1F8C257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F46A5F-9B97-4CF2-83F9-3738D1F8C257}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -253,6 +259,7 @@ Global
 		{D7C6816F-ADCB-40BA-BB11-5C400B2E5D19} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
 		{93312DE4-0389-4792-9804-F3F8FE244F26} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
 		{7875F915-9FC2-4494-B620-F0E6E9A95862} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
+		{A5F46A5F-9B97-4CF2-83F9-3738D1F8C257} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {781A78E4-524B-4646-8965-93BC2AC2D040}
