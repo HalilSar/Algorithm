@@ -59,10 +59,10 @@ namespace Algorithm.Graf.AStar
             PrintSolution(dist);
         }
 
-        // Heuristic fonksiyonu (A* için)
+       
         private int Heuristic(int src, int dest)
         {
-            // Basit bir Manhattan mesafesi tahmini
+            
             return Math.Abs(src - dest);
         }
 
