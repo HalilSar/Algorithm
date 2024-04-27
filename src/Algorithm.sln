@@ -83,7 +83,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.AStar", "Alg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.PrimMST", "Algorithm.Graf.PrimMST\Algorithm.Graf.PrimMST.csproj", "{B02421A5-6935-4DCE-BBD8-0D6F23BC96C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Graf.KruskalMST", "Algorithm.Graf.KruskalMST\Algorithm.Graf.KruskalMST.csproj", "{F1EA27A7-49FD-4A35-8470-6AFE437545CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.KruskalMST", "Algorithm.Graf.KruskalMST\Algorithm.Graf.KruskalMST.csproj", "{F1EA27A7-49FD-4A35-8470-6AFE437545CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Graf.FloydWarshall", "Algorithm.Graf.FloydWarshall\Algorithm.Graf.FloydWarshall.csproj", "{756C35DD-DB57-4EF9-91D2-576D948EC2EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -239,6 +241,10 @@ Global
 		{F1EA27A7-49FD-4A35-8470-6AFE437545CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1EA27A7-49FD-4A35-8470-6AFE437545CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1EA27A7-49FD-4A35-8470-6AFE437545CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756C35DD-DB57-4EF9-91D2-576D948EC2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756C35DD-DB57-4EF9-91D2-576D948EC2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756C35DD-DB57-4EF9-91D2-576D948EC2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756C35DD-DB57-4EF9-91D2-576D948EC2EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -281,6 +287,7 @@ Global
 		{469DCBD1-615A-4F4D-9ABC-9A00386307D6} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
 		{B02421A5-6935-4DCE-BBD8-0D6F23BC96C6} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
 		{F1EA27A7-49FD-4A35-8470-6AFE437545CF} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
+		{756C35DD-DB57-4EF9-91D2-576D948EC2EF} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {781A78E4-524B-4646-8965-93BC2AC2D040}
