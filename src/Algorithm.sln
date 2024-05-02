@@ -93,7 +93,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.Topological
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.GraphColoring", "Algorithm.Graph.GraphColoring\Algorithm.Graph.GraphColoring.csproj", "{D8EAAC26-6301-47F5-B449-3A8E563D17BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Graph.EulerianPathFinding", "Algorithm.Graph.EulerianPathFinding\Algorithm.Graph.EulerianPathFinding.csproj", "{E680F2E7-40EF-4CDD-9E78-49698504C548}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.EulerianPathFinding", "Algorithm.Graph.EulerianPathFinding\Algorithm.Graph.EulerianPathFinding.csproj", "{E680F2E7-40EF-4CDD-9E78-49698504C548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Graph.HamiltonianPathFinding", "Algorithm.Graph.HamiltonianPathFinding\Algorithm.Graph.HamiltonianPathFinding.csproj", "{FF054C19-3943-4315-BCA1-DEC0F6444D5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -269,6 +271,10 @@ Global
 		{E680F2E7-40EF-4CDD-9E78-49698504C548}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E680F2E7-40EF-4CDD-9E78-49698504C548}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E680F2E7-40EF-4CDD-9E78-49698504C548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF054C19-3943-4315-BCA1-DEC0F6444D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF054C19-3943-4315-BCA1-DEC0F6444D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF054C19-3943-4315-BCA1-DEC0F6444D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF054C19-3943-4315-BCA1-DEC0F6444D5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -316,6 +322,7 @@ Global
 		{F5415173-97D3-4D93-A47B-241DB371B992} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
 		{D8EAAC26-6301-47F5-B449-3A8E563D17BF} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
 		{E680F2E7-40EF-4CDD-9E78-49698504C548} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
+		{FF054C19-3943-4315-BCA1-DEC0F6444D5F} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {781A78E4-524B-4646-8965-93BC2AC2D040}
