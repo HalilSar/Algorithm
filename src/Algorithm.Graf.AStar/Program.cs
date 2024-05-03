@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace Algorithm.Graf.AStar
+namespace Algorithm.Graph.AStar
 {
     class Program
     {
