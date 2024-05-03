@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Algorithm.Graf.Johnson
+namespace Algorithm.Graph.Johnson
 {
     class Program
     {

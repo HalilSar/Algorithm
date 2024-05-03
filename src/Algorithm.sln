@@ -87,7 +87,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.KruskalMST"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.FloydWarshall", "Algorithm.Graf.FloydWarshall\Algorithm.Graf.FloydWarshall.csproj", "{756C35DD-DB57-4EF9-91D2-576D948EC2EF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.Johnson", "Algorithm.Graf.Johnson\Algorithm.Graf.Johnson.csproj", "{21E24F60-029D-4594-ABA7-17CBAFE796F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.Johnson", "Algorithm.Graf.Johnson\Algorithm.Graph.Johnson.csproj", "{21E24F60-029D-4594-ABA7-17CBAFE796F9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.TopologicalSorting", "Algorithm.Graph.TopologicalSorting\Algorithm.Graph.TopologicalSorting.csproj", "{F5415173-97D3-4D93-A47B-241DB371B992}"
 EndProject
