@@ -83,7 +83,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.AStar", "Al
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.PrimMST", "Algorithm.Graf.PrimMST\Algorithm.Graph.PrimMST.csproj", "{B02421A5-6935-4DCE-BBD8-0D6F23BC96C6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.KruskalMST", "Algorithm.Graf.KruskalMST\Algorithm.Graf.KruskalMST.csproj", "{F1EA27A7-49FD-4A35-8470-6AFE437545CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.KruskalMST", "Algorithm.Graf.KruskalMST\Algorithm.Graph.KruskalMST.csproj", "{F1EA27A7-49FD-4A35-8470-6AFE437545CF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.FloydWarshall", "Algorithm.Graf.FloydWarshall\Algorithm.Graf.FloydWarshall.csproj", "{756C35DD-DB57-4EF9-91D2-576D948EC2EF}"
 EndProject
