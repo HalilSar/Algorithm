@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace Algorithm.Graf.BellManFord
+namespace Algorithm.Graph.BellManFord
 {
     class Program
     {
