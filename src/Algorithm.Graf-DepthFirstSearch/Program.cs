@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Algorithm.Graf.DepthFirstSearch
+namespace Algorithm.Graph.DepthFirstSearch
 {
     class Graph
     {

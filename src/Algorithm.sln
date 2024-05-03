@@ -71,7 +71,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Tree.SplayTree", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.DepthFirstSearch", "Algorithm.Graf-DepthFirstSearch\Algorithm.Graf.DepthFirstSearch.csproj", "{D7C6816F-ADCB-40BA-BB11-5C400B2E5D19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.DepthFirstSearch", "Algorithm.Graf-DepthFirstSearch\Algorithm.Graph.DepthFirstSearch.csproj", "{D7C6816F-ADCB-40BA-BB11-5C400B2E5D19}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.BreadthFirstSearch", "Algorithm.Graf.BreadthFirstSearch\Algorithm.Graph.BreadthFirstSearch.csproj", "{93312DE4-0389-4792-9804-F3F8FE244F26}"
 EndProject
