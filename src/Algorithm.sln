@@ -79,7 +79,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.Dijkstra", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.BellManFord", "Algorithm.Graf.BellMan\Algorithm.Graf.BellManFord.csproj", "{A5F46A5F-9B97-4CF2-83F9-3738D1F8C257}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.AStar", "Algorithm.Graf.AStar\Algorithm.Graf.AStar.csproj", "{469DCBD1-615A-4F4D-9ABC-9A00386307D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.AStar", "Algorithm.Graf.AStar\Algorithm.Graph.AStar.csproj", "{469DCBD1-615A-4F4D-9ABC-9A00386307D6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.PrimMST", "Algorithm.Graf.PrimMST\Algorithm.Graf.PrimMST.csproj", "{B02421A5-6935-4DCE-BBD8-0D6F23BC96C6}"
 EndProject
