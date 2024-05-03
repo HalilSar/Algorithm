@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Algorithm.Graf.FloydWarshall
+namespace Algorithm.Graph.FloydWarshall
 {
     class Program
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Algorithm.Graf.PrimMST
+namespace Algorithm.Graph.PrimMST
 {
     class Program
     {

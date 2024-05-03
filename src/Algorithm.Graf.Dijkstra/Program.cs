@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace Algorithm.Graf.Dijkstra
+namespace Algorithm.Graph.Dijkstra
 {
     class Program
     {
