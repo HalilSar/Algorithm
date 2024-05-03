@@ -73,7 +73,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{1A206319
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.DepthFirstSearch", "Algorithm.Graf-DepthFirstSearch\Algorithm.Graf.DepthFirstSearch.csproj", "{D7C6816F-ADCB-40BA-BB11-5C400B2E5D19}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.BreadthFirstSearch", "Algorithm.Graf.BreadthFirstSearch\Algorithm.Graf.BreadthFirstSearch.csproj", "{93312DE4-0389-4792-9804-F3F8FE244F26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.BreadthFirstSearch", "Algorithm.Graf.BreadthFirstSearch\Algorithm.Graph.BreadthFirstSearch.csproj", "{93312DE4-0389-4792-9804-F3F8FE244F26}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.Dijkstra", "Algorithm.Graf.Dijkstra\Algorithm.Graf.Dijkstra.csproj", "{7875F915-9FC2-4494-B620-F0E6E9A95862}"
 EndProject
