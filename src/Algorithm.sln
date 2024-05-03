@@ -69,7 +69,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Tree.DoubleEndedT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Tree.SplayTree", "Algorithm.Tree.SplayTree\Algorithm.Tree.SplayTree.csproj", "{BD524427-5399-4150-B855-3B494D80F483}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graf", "Graf", "{1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graf.DepthFirstSearch", "Algorithm.Graf-DepthFirstSearch\Algorithm.Graf.DepthFirstSearch.csproj", "{D7C6816F-ADCB-40BA-BB11-5C400B2E5D19}"
 EndProject
@@ -95,7 +95,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.GraphColori
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.EulerianPathFinding", "Algorithm.Graph.EulerianPathFinding\Algorithm.Graph.EulerianPathFinding.csproj", "{E680F2E7-40EF-4CDD-9E78-49698504C548}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Graph.HamiltonianPathFinding", "Algorithm.Graph.HamiltonianPathFinding\Algorithm.Graph.HamiltonianPathFinding.csproj", "{FF054C19-3943-4315-BCA1-DEC0F6444D5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.HamiltonianPathFinding", "Algorithm.Graph.HamiltonianPathFinding\Algorithm.Graph.HamiltonianPathFinding.csproj", "{FF054C19-3943-4315-BCA1-DEC0F6444D5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
