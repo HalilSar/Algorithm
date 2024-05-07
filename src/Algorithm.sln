@@ -97,6 +97,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.EulerianPat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.HamiltonianPathFinding", "Algorithm.Graph.HamiltonianPathFinding\Algorithm.Graph.HamiltonianPathFinding.csproj", "{FF054C19-3943-4315-BCA1-DEC0F6444D5F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graphic", "Graphic", "{9A64223B-FC22-4C55-86FC-E552EDB77F1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Graphic.GrapMatching", "Algorithm.Graphic.GrapMatching\Algorithm.Graphic.GrapMatching.csproj", "{0C2B24B8-A1C3-4D84-AB1E-9FECBA4EF863}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -275,6 +279,10 @@ Global
 		{FF054C19-3943-4315-BCA1-DEC0F6444D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF054C19-3943-4315-BCA1-DEC0F6444D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF054C19-3943-4315-BCA1-DEC0F6444D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2B24B8-A1C3-4D84-AB1E-9FECBA4EF863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2B24B8-A1C3-4D84-AB1E-9FECBA4EF863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2B24B8-A1C3-4D84-AB1E-9FECBA4EF863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2B24B8-A1C3-4D84-AB1E-9FECBA4EF863}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -323,6 +331,7 @@ Global
 		{D8EAAC26-6301-47F5-B449-3A8E563D17BF} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
 		{E680F2E7-40EF-4CDD-9E78-49698504C548} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
 		{FF054C19-3943-4315-BCA1-DEC0F6444D5F} = {1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}
+		{0C2B24B8-A1C3-4D84-AB1E-9FECBA4EF863} = {9A64223B-FC22-4C55-86FC-E552EDB77F1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {781A78E4-524B-4646-8965-93BC2AC2D040}
