@@ -71,23 +71,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Tree.SplayTree", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{1A206319-D9D2-4EBA-9644-D1C23CFA7A8C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.DepthFirstSearch", "Algorithm.Graf-DepthFirstSearch\Algorithm.Graph.DepthFirstSearch.csproj", "{D7C6816F-ADCB-40BA-BB11-5C400B2E5D19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.DepthFirstSearch", "Algorithm.Graph-DepthFirstSearch\Algorithm.Graph.DepthFirstSearch.csproj", "{D7C6816F-ADCB-40BA-BB11-5C400B2E5D19}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.BreadthFirstSearch", "Algorithm.Graf.BreadthFirstSearch\Algorithm.Graph.BreadthFirstSearch.csproj", "{93312DE4-0389-4792-9804-F3F8FE244F26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.BreadthFirstSearch", "Algorithm.Graph.BreadthFirstSearch\Algorithm.Graph.BreadthFirstSearch.csproj", "{93312DE4-0389-4792-9804-F3F8FE244F26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.Dijkstra", "Algorithm.Graf.Dijkstra\Algorithm.Graph.Dijkstra.csproj", "{7875F915-9FC2-4494-B620-F0E6E9A95862}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.Dijkstra", "Algorithm.Graph.Dijkstra\Algorithm.Graph.Dijkstra.csproj", "{7875F915-9FC2-4494-B620-F0E6E9A95862}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.BellManFord", "Algorithm.Graf.BellMan\Algorithm.Graph.BellManFord.csproj", "{A5F46A5F-9B97-4CF2-83F9-3738D1F8C257}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.BellManFord", "Algorithm.Graph.BellMan\Algorithm.Graph.BellManFord.csproj", "{A5F46A5F-9B97-4CF2-83F9-3738D1F8C257}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.AStar", "Algorithm.Graf.AStar\Algorithm.Graph.AStar.csproj", "{469DCBD1-615A-4F4D-9ABC-9A00386307D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.AStar", "Algorithm.Graph.AStar\Algorithm.Graph.AStar.csproj", "{469DCBD1-615A-4F4D-9ABC-9A00386307D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.PrimMST", "Algorithm.Graf.PrimMST\Algorithm.Graph.PrimMST.csproj", "{B02421A5-6935-4DCE-BBD8-0D6F23BC96C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.PrimMST", "Algorithm.Graph.PrimMST\Algorithm.Graph.PrimMST.csproj", "{B02421A5-6935-4DCE-BBD8-0D6F23BC96C6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.KruskalMST", "Algorithm.Graf.KruskalMST\Algorithm.Graph.KruskalMST.csproj", "{F1EA27A7-49FD-4A35-8470-6AFE437545CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.KruskalMST", "Algorithm.Graph.KruskalMST\Algorithm.Graph.KruskalMST.csproj", "{F1EA27A7-49FD-4A35-8470-6AFE437545CF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.FloydWarshall", "Algorithm.Graf.FloydWarshall\Algorithm.Graph.FloydWarshall.csproj", "{756C35DD-DB57-4EF9-91D2-576D948EC2EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.FloydWarshall", "Algorithm.Graph.FloydWarshall\Algorithm.Graph.FloydWarshall.csproj", "{756C35DD-DB57-4EF9-91D2-576D948EC2EF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.Johnson", "Algorithm.Graf.Johnson\Algorithm.Graph.Johnson.csproj", "{21E24F60-029D-4594-ABA7-17CBAFE796F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.Johnson", "Algorithm.Graph.Johnson\Algorithm.Graph.Johnson.csproj", "{21E24F60-029D-4594-ABA7-17CBAFE796F9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graph.TopologicalSorting", "Algorithm.Graph.TopologicalSorting\Algorithm.Graph.TopologicalSorting.csproj", "{F5415173-97D3-4D93-A47B-241DB371B992}"
 EndProject
