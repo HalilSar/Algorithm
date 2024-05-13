@@ -105,7 +105,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graphic.MinimumCu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graphic.MaximumFlow", "Algorithm.Graphic.MaximumFlow\Algorithm.Graphic.MaximumFlow.csproj", "{4F82BB6E-E248-44B0-BD95-8CB5796FDF01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Graphic.LongestPathProblem", "Algorithm.Graphic.LongestPathProblem\Algorithm.Graphic.LongestPathProblem.csproj", "{5614A415-5BF6-43CE-8FDA-F67466D40536}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graphic.LongestPathProblem", "Algorithm.Graphic.LongestPathProblem\Algorithm.Graphic.LongestPathProblem.csproj", "{5614A415-5BF6-43CE-8FDA-F67466D40536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Graphic.MinimumSpanningTree", "Algorithm.Graphic.MinimumSpanningTree\Algorithm.Graphic.MinimumSpanningTree.csproj", "{7E998BD4-01BD-42DC-9854-BE22BBDE6C97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -301,6 +303,10 @@ Global
 		{5614A415-5BF6-43CE-8FDA-F67466D40536}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5614A415-5BF6-43CE-8FDA-F67466D40536}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5614A415-5BF6-43CE-8FDA-F67466D40536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E998BD4-01BD-42DC-9854-BE22BBDE6C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E998BD4-01BD-42DC-9854-BE22BBDE6C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E998BD4-01BD-42DC-9854-BE22BBDE6C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E998BD4-01BD-42DC-9854-BE22BBDE6C97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -353,6 +359,7 @@ Global
 		{91F911E5-2259-43C7-9CEA-C3EB0170D9C2} = {9A64223B-FC22-4C55-86FC-E552EDB77F1B}
 		{4F82BB6E-E248-44B0-BD95-8CB5796FDF01} = {9A64223B-FC22-4C55-86FC-E552EDB77F1B}
 		{5614A415-5BF6-43CE-8FDA-F67466D40536} = {9A64223B-FC22-4C55-86FC-E552EDB77F1B}
+		{7E998BD4-01BD-42DC-9854-BE22BBDE6C97} = {9A64223B-FC22-4C55-86FC-E552EDB77F1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {781A78E4-524B-4646-8965-93BC2AC2D040}
