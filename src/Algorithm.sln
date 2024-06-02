@@ -107,7 +107,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graphic.MaximumFl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graphic.LongestPathProblem", "Algorithm.Graphic.LongestPathProblem\Algorithm.Graphic.LongestPathProblem.csproj", "{5614A415-5BF6-43CE-8FDA-F67466D40536}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Graphic.MinimumSpanningTree", "Algorithm.Graphic.MinimumSpanningTree\Algorithm.Graphic.MinimumSpanningTree.csproj", "{7E998BD4-01BD-42DC-9854-BE22BBDE6C97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Graphic.MinimumSpanningTree", "Algorithm.Graphic.MinimumSpanningTree\Algorithm.Graphic.MinimumSpanningTree.csproj", "{7E998BD4-01BD-42DC-9854-BE22BBDE6C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Sort.Bucket", "Algorithm.Sort.Bucket\Algorithm.Sort.Bucket.csproj", "{185D64C5-77F1-45BA-BD4E-AE41B23071E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -307,6 +309,10 @@ Global
 		{7E998BD4-01BD-42DC-9854-BE22BBDE6C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E998BD4-01BD-42DC-9854-BE22BBDE6C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E998BD4-01BD-42DC-9854-BE22BBDE6C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185D64C5-77F1-45BA-BD4E-AE41B23071E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185D64C5-77F1-45BA-BD4E-AE41B23071E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185D64C5-77F1-45BA-BD4E-AE41B23071E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185D64C5-77F1-45BA-BD4E-AE41B23071E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -360,6 +366,7 @@ Global
 		{4F82BB6E-E248-44B0-BD95-8CB5796FDF01} = {9A64223B-FC22-4C55-86FC-E552EDB77F1B}
 		{5614A415-5BF6-43CE-8FDA-F67466D40536} = {9A64223B-FC22-4C55-86FC-E552EDB77F1B}
 		{7E998BD4-01BD-42DC-9854-BE22BBDE6C97} = {9A64223B-FC22-4C55-86FC-E552EDB77F1B}
+		{185D64C5-77F1-45BA-BD4E-AE41B23071E1} = {6373EFC3-5AEB-4C28-9178-5A3BC30BBA61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {781A78E4-524B-4646-8965-93BC2AC2D040}
