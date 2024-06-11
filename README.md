@@ -1,26 +1,21 @@
 # Algorithm Implementations in C#
 
-## Description (Açıklama)
+## Description 
 This project provides implementations of various common algorithms in C#. Each algorithm includes basic operations and demonstrates usage with example code.
 
-## Features (Özellikler)
-- Sorting Algorithms (Sıralama Algoritmaları)
+## Features 
+- Sorting Algorithms 
   - Bubble Sort
   - Insertion Sort
   - Quick Sort
   - Merge Sort
-- Searching Algorithms (Arama Algoritmaları)
+- Searching Algorithms 
   - Linear Search
   - Binary Search
-- Graph Algorithms (Grafik Algoritmaları)
+- Graph Algorithms 
   - Depth-First Search (DFS)
   - Breadth-First Search (BFS)
   - Dijkstra's Algorithm
-- Data Structures (Veri Yapıları)
-  - Linked List
-  - Stack
-  - Queue
-  - Binary Tree
 
 ## Installation (Kurulum)
 1. Clone the repository:
@@ -29,20 +24,20 @@ This project provides implementations of various common algorithms in C#. Each a
    
 2. Open the project in Visual Studio or your preferred C# IDE.
 
-## Usage (Kullanım)
-### Sorting Algorithms (Sıralama Algoritmaları)
+## Usage
+### Sorting Algorithms 
 ```csharp
 int[] array = { 5, 2, 9, 1, 5, 6 };
 SortingAlgorithms.BubbleSort(array);
 ```
 
-### Searching Algorithms (Arama Algoritmaları)
+### Searching Algorithms 
 ```csharp
 int[] array = { 1, 2, 3, 4, 5 };
 int index = SearchingAlgorithms.BinarySearch(array, 3);
 ```
 
-### Graph Algorithms (Grafik Algoritmaları)
+### Graph Algorithms 
 ```csharp
 Graph graph = new Graph();
 graph.AddEdge(0, 1);
@@ -50,7 +45,7 @@ graph.AddEdge(0, 2);
 GraphAlgorithms.DepthFirstSearch(graph, 0);
 ```
 
-## FAQ (Sık Sorulan Sorular)
+## FAQ
   + *What algorithms are included?*
    - Sorting, searching, and graph algorithms are included.
 
